@@ -56,5 +56,11 @@ namespace TestRepo.Tests.Controllers
         {
             Assert.IsTrue(true);
         }
+
+        [TestMethod]
+        public void FailingDummyTest()
+        {
+            Assert.IsTrue(false);
+        }
     }
 }
