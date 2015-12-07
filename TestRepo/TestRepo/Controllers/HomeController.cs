@@ -26,5 +26,10 @@ namespace TestRepo.Controllers
 
             return View();
         }
+
+        private void test()
+        {
+
+        }
     }
 }
